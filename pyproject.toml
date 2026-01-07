@@ -1,0 +1,35 @@
+[project]
+name = "2025-10-10-acute-chronic-fish-qsar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "bs4>=0.0.2",
+    "chardet>=5.2.0",
+    "html5lib>=1.1",
+    "ioproc>=2.3.0",
+    "ipython>=9.6.0",
+    "kneed>=0.8.5",
+    "lxml>=6.0.2",
+    "matplotlib>=3.10.7",
+    "numpy>=1.26.4",
+    "openai>=2.3.0",
+    "pandas[excel,performance]>=2.2.3",
+    "pdf2image>=1.17.0",
+    "python-pptx>=1.0.2",
+    "rdkit>=2025.9.1",
+    "scikit-learn>=1.7.2",
+    "scikit-posthocs>=0.11.4",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "selenium>=4.38.0",
+    "tiktoken>=0.12.0",
+    "tqdm>=4.67.1",
+    "umap-learn>=0.5.9.post2",
+    "upsetplot>=0.9.0",
+]
+
+[tool.uv.sources]
+ioproc = { path = "D:/myApplications/local/2025_03_31_IOProc", editable = true }
